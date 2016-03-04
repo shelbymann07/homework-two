@@ -31,7 +31,7 @@ function writeTable(data) {
         var amount = data[i]["Amount"];
         
                     if (committee === "CITIZENS TO ELECT KURT SCHAEFER ATTORNEY GENERAL"){
-                        $(".chart .table .tbody").append(
+                        $("table.donations").append(
                          "<tr>"+
                             "<td>"+date+"</td>"+
                             "<td>"+info+"</td>"+
